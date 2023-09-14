@@ -258,7 +258,7 @@ header p{
 .team-row{
     width: 60%;
     display: grid;
-    grid-template-columns: 10px 10px 1fr;
+    grid-template-columns: 450px 450px 1fr;
 }
 
 .profile{
@@ -292,5 +292,4 @@ header p{
 .profile-info h5{
     font-size: 24px;
     font-weight: 600;
-    
 }
