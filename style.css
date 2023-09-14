@@ -139,7 +139,7 @@ header p{
 
 .text-title h1{
     font-size: 54px;
-    font-weight: 700;
+    font-weight: 400;
 
 }
 
@@ -153,4 +153,72 @@ header p{
     line-height: 140%;
     color: #595959;
 
+}
+
+.team{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    background-color: #abb8c3;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.team-title{
+    width: 100%;
+    height: 3%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-title h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.pharm-leader{
+    width: 60%;
+    height: 14.8%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.leader-photo{
+    width: 50%;
+}
+
+.leader-photo img{
+    width: 100%;
+}
+
+.lead-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.lead-info-top{
+    line-height: 50px;
+}
+
+.lead-info-top h3{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.lead-info-top strong{
+    font-weight: 700;
+    color: #3e4a8f;
+}
+
+.lead-info-bot{
+    line-height: 40px;
+}
+
+.lead-info-bot p{
+    color: #3e4a8f;
 }
