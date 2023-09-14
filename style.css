@@ -284,6 +284,10 @@ header p{
     justify-content: center;
     padding-left: 20px;
     line-height: 40px;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color:#3e4a8f;
+
 }
 
 .profile-info h5{
