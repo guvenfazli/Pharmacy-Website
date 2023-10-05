@@ -294,3 +294,49 @@ header p{
     font-size: 24px;
     font-weight: 600;
 }
+
+.section-5{
+    height: 50vh;
+    background-color: #3e4a8f;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.footer{
+    display: flex;
+    width: 60%;
+    border: 1px solid gray;
+}
+
+.footer-left{
+    display: flex;
+    border: 1px solid gray;
+    width: 36%;
+    flex-direction: column;
+    color: white;
+}
+
+.footer-left p{
+    padding-top: 50px;
+}
+
+.footer-left-icons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-mid{
+    display: flex;
+    border: 1px solid gray;
+    width: 36%;
+    flex-direction: column;
+}
+
+.footer-right{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+}
