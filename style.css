@@ -307,26 +307,67 @@ header p{
 .footer{
     display: flex;
     width: 60%;
-    border: 1px solid gray;
 }
 
 .footer-left{
     display: flex;
-    border: 1px solid gray;
     width: 36%;
     flex-direction: column;
     color: white;
 }
 
-.footer-left p{
+.apotheke-name{
     padding-top: 50px;
 }
 
 .footer-left-icons{
     width: 100%;
+    height: 10%;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    
 }
+
+.footer-left i{
+    margin-right: 15px;
+}
+
+.footer-left-icons-2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-left-icons-3{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}   
+
+.footer-left-icons-4{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}   
+
+.footer-left-icons-5{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}   
+
+
+
+
 
 .footer-mid{
     display: flex;
