@@ -305,6 +305,7 @@ header p{
 }
 
 .footer{
+    padding-top: 50px;
     display: flex;
     width: 60%;
 }
@@ -317,7 +318,7 @@ header p{
 }
 
 .apotheke-name{
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .footer-left-icons{
@@ -366,18 +367,48 @@ header p{
 }   
 
 
-
-
-
 .footer-mid{
     display: flex;
-    border: 1px solid gray;
     width: 36%;
     flex-direction: column;
+}
+
+.footer-mid button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+.footer-mid button:hover{
+    cursor: pointer;
+    padding-left: 15px;
 }
 
 .footer-right{
     display: flex;
     width: 25%;
     flex-direction: column;
+}
+
+.footer-right button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+.footer-right button:hover{
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+li {
+    list-style: none;
+    color: white;
+    font-size: 23px;
 }
